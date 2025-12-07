@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build PIC18F4550",
+            "type": "shell",
+            "command": "xc8-cc",
+            "args": [
+                "-mcpu=18F4550",
+                "-o",
+                "build/main.hex",
+                "main.c"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        }
+    ]
+}
