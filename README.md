@@ -3,6 +3,8 @@ The resulting hex will be inside of the build folder.
 
 This isn't the legacy version, as such there are some minor syntax difference such as the delay being __delay_ms();
 
+Download XC8 compiler and set it in your PATH for this template to work.
+
 Notes:
 Inside of proteus, the PIC's MCLR pin must be connected to power to work.
 
